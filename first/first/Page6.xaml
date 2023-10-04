@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="first.Page6"
+              xmlns:local ="clr-namespace:first"
+              >
+    <ContentPage BackgroundColor="#FAF5E9" >
+        <StackLayout >
+
+            <Button Margin="20,20,20,0" Clicked="Button_Clicked" BackgroundColor="#009B4D" Text="GoToTabbed" ></Button>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage BackgroundColor="#FAF5E9" >
+        <StackLayout >
+
+            <Button Margin="20,20,20,0" Clicked="Button_Clicked" BackgroundColor="#009B4D" Text="NoThing" ></Button>
+
+        </StackLayout>
+    </ContentPage>
+    
+            <local:MainPage BackgroundColor="Beige" >  </local:MainPage>
+</CarouselPage>

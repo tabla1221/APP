@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="first.Page5"
+            
+             
+             Title="red" BackgroundColor="AliceBlue"
+             
+            
+             >
+               
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions> 
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Label x:Name="jh"   FontSize="Title" ></Label>
+                <Button FontAttributes="Bold" FontSize="Large"  HorizontalOptions="Center"  VerticalOptions="Center"  Grid.Column="3" Grid.Row="2" Text="4" TextColor="White" BackgroundColor="Green" Clicked="Button_Clicked" ></Button>
+            <Button FontAttributes="Bold" FontSize="Large"    HorizontalOptions="Center"  VerticalOptions="Center"  Grid.Column="4" Grid.Row="2" Text="5" TextColor="White" BackgroundColor="Green"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"     Grid.Column="5" Grid.Row="2" Text="6" TextColor="White"  HorizontalOptions="Center"  VerticalOptions="Center" BackgroundColor="Green"   Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"    Grid.Column="3" Grid.Row="3" Text="7" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"    Grid.Column="4" Grid.Row="3" Text="8" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center" Clicked="Button_Clicked" ></Button>
+            <Button FontAttributes="Bold" FontSize="Large"   Grid.Column="5" Grid.Row="3" Text="9" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"    Grid.Column="3" Grid.Row="4" Text="l" TextColor="White" BackgroundColor="Green"  HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"     Grid.Column="4" Grid.Row="4" Text="*" TextColor="White" BackgroundColor="Green"  HorizontalOptions="CenterAndExpand"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"     Grid.Column="5" Grid.Row="4" Text="#" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"     Grid.Column="3" Grid.Row="1" Text="1" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"    Grid.Column="4" Grid.Row="1" Text="2" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+            <Button FontAttributes="Bold" FontSize="Large"     Grid.Column="5" Grid.Row="1" Text="3" TextColor="White" BackgroundColor="Green"  HorizontalOptions="Center"  VerticalOptions="Center"  Clicked="Button_Clicked"></Button>
+                </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

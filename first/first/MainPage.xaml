@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="first.MainPage"
+             
+             >
+
+    <StackLayout>
+        <Label TextColor="Black" Text="hi bru" BackgroundColor="Yellow" Margin="12,20,0,0" Padding="30,20,0,0" 
+               FontSize="45" FontAttributes="Bold"/>
+        <Label Text="1" HorizontalOptions="End" WidthRequest="50" Padding="10" ></Label>
+        <Entry x:Name="us" Placeholder="user name" />
+        <StackLayout Orientation="Vertical" VerticalOptions="End" >
+            <Entry x:Name="pas" Placeholder="your password" HorizontalOptions="FillAndExpand" IsPassword="True" />
+            <Button BackgroundColor="Transparent" VerticalOptions="Start" FontSize="Small" BorderColor="Black" HorizontalOptions="End" Text="forget password" Clicked="Button_Clicked_3" />
+
+            <StackLayout Orientation="Horizontal"  >
+
+
+                <Button Text="Log In" TextColor="White" Margin="70,0,5,0" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" Clicked="Button_Clicked"></Button>
+                <Button Text="Sign up" TextColor="White" Margin="0,0,70,0" BackgroundColor="Blue" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked_1" ></Button>
+
+            </StackLayout >
+            <StackLayout Orientation="Horizontal" >
+                <Button Clicked="Button_Clicked_7" BackgroundColor="PeachPuff" Text="flayoutPage" ></Button>
+            <Button Text="carouslePage" TextColor="White"  BackgroundColor="Blue" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked_5" ></Button>
+
+            <Button  Clicked="Button_Clicked_4" BackgroundColor="Purple" Text="callPage" ></Button>
+            <Button Clicked="Button_Clicked_6" BackgroundColor="MediumPurple" Text="tabbedPage" ></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

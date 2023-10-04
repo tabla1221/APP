@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="first.Page7"
+            xmlns:local="clr-namespace:first"
+            UnselectedTabColor="Pink"
+            SelectedTabColor="Blue"
+            BarBackgroundColor="White"
+            BackgroundColor="MediumAquamarine"
+            
+            NavigationPage.HasNavigationBar="False"
+            >
+
+    <ContentPage Title="p1">
+
+        <StackLayout   >
+                <Button Text="GoToCarousel" Margin="20,10,20,0" Clicked="Button_Clicked" ></Button>
+            
+
+      
+            
+        </StackLayout>
+    </ContentPage  >
+
+    <ContentPage  Title="p2">
+        <StackLayout >
+            <Button Text="NoThing"></Button>
+        </StackLayout>
+
+
+    </ContentPage>
+    <ContentPage  Title="p3"  >
+        <StackLayout >
+            <Button Text="NoThing"></Button>
+            
+        </StackLayout>
+
+
+    </ContentPage>
+    <NavigationPage Title="MainPage" BackgroundColor="White" >
+        <x:Arguments>
+            <local:MainPage></local:MainPage>
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="first.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="10,10,10,10" >
+                <Image Source="jj"  >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+                
+            </StackLayout>
+            <Label TextColor="Black" Margin="10,0,0,0" FontAttributes="Bold" FontSize ="45" Text="hello" TranslationY="5" TranslationX="160" ></Label>
+            <Entry x:Name="nam" Placeholder="Your name" Margin="10,0,0,0" FontAttributes="Bold" ></Entry>
+            <Entry x:Name="Nick" Placeholder="Your NickName" Margin="10,0,0,0" FontAttributes="Bold" ></Entry>
+            <Entry x:Name="email" Placeholder="Your Email" Margin="10,0,0,0" FontAttributes="Bold" ></Entry>
+            <Entry Placeholder="You password" Margin="10,0,0,0" FontAttributes="Bold" ></Entry>
+            <Button Text="save" BorderColor="LightCoral" BorderWidth="3" Margin="30,0,30,0" TextColor="Black" BackgroundColor="LightPink" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
